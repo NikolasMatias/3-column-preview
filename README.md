@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Will be added in the future](https://your-solution-url.com)
+- Live Site URL: [Link](https://3-column-preview-ten.vercel.app/)
 - GitHub Project URL: [Link](https://github.com/nikolasmatias/3-column-preview)
 
 ## My process
@@ -48,61 +48,75 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Vue 3](https://v3.vuejs.org/) - JS library
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In my [Last FrontendMentor Project](https://www.frontendmentor.io/solutions/reactjs-sass-flex-grid--mi9p_x9_)
+a person told me about some tips I could use to improve my abilities in development of responsive applications.
 
-To see how you can add code snippets, see below:
+In this small project I tried to apply this knowladge. In this case I tried to use just "witdh" and "height" in case of classes that would be used in my whole page.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+For example:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+#app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+.vehicles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 80%;
+  width: 80%;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+But in some other cases I tried to use the power of css and the components alone to do this for me.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+For this I just need to use font-sizes, paddings, margins, font-weight, among other options.
+
+I had some good results with it. Just like the buttons, for example:
+
+```css
+.vehicle .section-button {
+  background-color: var(--neutral-very-light-gray);
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 0;
+  font-size: 1.1rem;
+  color: var(--primary-dark-cyan);
+}
+```
+
+As you can see, I'm not using width or height. 
+I'm just letting the paddings, border-radius and font-size do the hard work for me.
+
+In the sense of responsiviness It's good cause everything will adapt for the new layouts and different screen sizes.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I'm studying a lot about new techniques I could use in my future projects
+and I'm still trying to explore the new possibilities of css functionalities.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+My main focus now is try to develop everything 
+I can about th styles of the websites I'm doing without the need of use javascript for it.
+I want to use javascript only when it's really needed.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@NikolasMatias](https://www.frontendmentor.io/profile/NikolasMatias)
+- LinkedIn - [@nikolas-matias-xavier-morais-180831a2](https://www.linkedin.com/in/nikolas-matias-xavier-morais-180831a2/)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I was inspired by the response from [@grizhlieCodes](https://www.frontendmentor.io/profile/grizhlieCodes) on my last project. 
+What he told me really guided me in this small project.

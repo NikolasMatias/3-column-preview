@@ -128,7 +128,7 @@ body {
   color: var(--neutral-very-light-gray);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 960px) {
   #app {
     height: 100vh;
     width: 100vw;
