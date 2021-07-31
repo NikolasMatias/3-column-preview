@@ -28,8 +28,8 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.google.com/specimen/Lexend+Deca');
-@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 :root {
   --primary-bright-orange: hsl(31, 77%, 52%);
   --primary-dark-cyan: hsl(184, 100%, 22%);
@@ -44,6 +44,10 @@ body {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+@font-face {
+
 }
 
 #app {
@@ -83,7 +87,7 @@ body {
 }
 
 .vehicle .section-title {
-  font-family: 'Big Shoulders Display', sans-serif;
+  font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
   color: var(--neutral-very-light-gray);
   font-size: 1.4rem;
@@ -121,6 +125,7 @@ body {
 
 .vehicle:last-child .section-button {
   color: var(--primary-very-dark-cyan);
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .vehicle:last-child .section-button:hover {
